@@ -1,0 +1,169 @@
+<svg aria-roledescription="eventmodeling" role="graphics-document document" viewBox="-30 -30 2625 495" height="495"
+    xmlns="http://www.w3.org/2000/svg" width="2625" id="dynamic">
+    <style>#dynamic{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#dynamic .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#dynamic .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#dynamic .error-icon{fill:#552222;}#dynamic .error-text{fill:#552222;stroke:#552222;}#dynamic .edge-thickness-normal{stroke-width:1px;}#dynamic .edge-thickness-thick{stroke-width:3.5px;}#dynamic .edge-pattern-solid{stroke-dasharray:0;}#dynamic .edge-thickness-invisible{stroke-width:0;fill:none;}#dynamic .edge-pattern-dashed{stroke-dasharray:3;}#dynamic .edge-pattern-dotted{stroke-dasharray:2;}#dynamic .marker{fill:#333333;stroke:#333333;}#dynamic .marker.cross{stroke:#333333;}#dynamic svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#dynamic p{margin:0;}#dynamic :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+    <g></g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="2565" rx="3" y="0" x="0"></rect>
+        <text y="30" x="30" font-weight="bold">UI/Automation</text>
+    </g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="155" width="2565" rx="3" y="140" x="0"></rect>
+        <text y="170" x="30" font-weight="bold">Command/Read Model</text>
+    </g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="2565" rx="3" y="305" x="0"></rect>
+        <text y="335" x="30" font-weight="bold">Events</text>
+    </g>
+    <g class="em-box">
+        <rect fill="#d3f1a2" stroke="#a3b732" height="100" width="336" rx="3" y="155" x="250"></rect>
+        <foreignObject height="80" width="316" y="165" x="260">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>Pending_Questions</b>
+                    <br/>
+                    <br/>
+                    <code style="text-align: left; display: block;max-width:430px"> How many invoices were sent out yesterday?</code>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#edb3f6" stroke="#b88cbf" height="100" width="167" rx="3" y="15" x="516"></rect>
+        <foreignObject height="80" width="147" y="25" x="526">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>Agent_A</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#bcd6fe" stroke="#679ac3" height="100" width="243.33333333333334" rx="3" y="155" x="613"></rect>
+        <foreignObject height="80" width="223.33333333333334" y="165" x="623">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InvokeModel</b>
+                    <br/>
+                    <br/>
+                    <code style="text-align: left; display: block;max-width:430px"> question</code>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#ffb778" stroke="#c19a0f" height="100" width="264" rx="3" y="320" x="786.3333333333334"></rect>
+        <foreignObject height="80" width="244" y="330" x="796.3333333333334">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InvocationCompleted</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#d3f1a2" stroke="#a3b732" height="100" width="275" rx="3" y="155" x="980.3333333333335"></rect>
+        <foreignObject height="80" width="255" y="165" x="990.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InvocationResult</b>
+                    <br/>
+                    <br/>
+                    <code style="text-align: left; display: block;max-width:430px"> callTool: findInvoices</code>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#d3f1a2" stroke="#a3b732" height="100" width="165" rx="3" y="155" x="1265.3333333333335"></rect>
+        <foreignObject height="80" width="145" y="165" x="1275.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>Invoices</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#edb3f6" stroke="#b88cbf" height="100" width="167" rx="3" y="15" x="1360.3333333333335"></rect>
+        <foreignObject height="80" width="147" y="25" x="1370.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>Agent_A</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#bcd6fe" stroke="#679ac3" height="100" width="247" rx="3" y="155" x="1457.3333333333335"></rect>
+        <foreignObject height="80" width="227" y="165" x="1467.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InvokeModel</b>
+                    <br/>
+                    <br/>
+                    <code style="text-align: left; display: block;max-width:430px"> toolResult</code>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#ffb778" stroke="#c19a0f" height="100" width="264" rx="3" y="320" x="1634.3333333333335"></rect>
+        <foreignObject height="80" width="244" y="330" x="1644.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InvocationCompleted</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#d3f1a2" stroke="#a3b732" height="125" width="383.6666666666667" rx="3" y="155" x="1828.3333333333335"></rect>
+        <foreignObject height="105" width="363.6666666666667" y="165" x="1838.3333333333335">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>Answers</b>
+                    <br/>
+                    <br/>
+                    <code style="text-align: left; display: block;max-width:430px">  2 invoices were sent out <br/>
+ yesterday to customers X and Y<br/>
+                </code>
+            </span>
+        </div>
+    </foreignObject>
+</g>
+<g class="em-box">
+    <rect fill="#d3f1a2" stroke="#a3b732" height="100" width="230" rx="3" y="155" x="2222"></rect>
+    <foreignObject height="80" width="210" y="165" x="2232">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+            <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                <b>InvocationResult</b>
+            </span>
+        </div>
+    </foreignObject>
+</g>
+<g class="em-box">
+    <rect fill="#edb3f6" stroke="#b88cbf" height="100" width="158" rx="3" y="15" x="2382"></rect>
+    <foreignObject height="80" width="138" y="25" x="2392">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+            <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                <b>AgentB</b>
+            </span>
+        </div>
+    </foreignObject>
+</g>
+<path d="M474 155 L571.6666666666666 115" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M627.3333333333334 115 L694.1111111111111 155" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M775.2222222222222 255 L874.3333333333334 320" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M962.3333333333334 320 L1072.0000000000002 255" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M1163.6666666666667 155 L1416.0000000000002 115" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M1375.3333333333335 155 L1416.0000000000002 115" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M1471.6666666666667 115 L1539.6666666666667 155" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M1622.0000000000002 255 L1722.3333333333335 320" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M1810.3333333333335 320 L1956.2222222222224 280" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<path d="M2375.3333333333335 155 L2434.6666666666665 115" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+<defs>
+    <marker orient="auto" refY="3.5" refX="10" markerHeight="7" markerWidth="10" id="arrowhead">
+        <polygon fill="#000" points="0 0, 10 3.5, 0 7"></polygon>
+    </marker>
+</defs>
+</svg>

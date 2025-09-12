@@ -1,0 +1,69 @@
+<svg aria-roledescription="eventmodeling" role="graphics-document document" viewBox="-30 -30 1093 610" height="610"
+    xmlns="http://www.w3.org/2000/svg" width="1093" id="dynamic">
+    <style>#dynamic{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#dynamic .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#dynamic .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#dynamic .error-icon{fill:#552222;}#dynamic .error-text{fill:#552222;stroke:#552222;}#dynamic .edge-thickness-normal{stroke-width:1px;}#dynamic .edge-thickness-thick{stroke-width:3.5px;}#dynamic .edge-pattern-solid{stroke-dasharray:0;}#dynamic .edge-thickness-invisible{stroke-width:0;fill:none;}#dynamic .edge-pattern-dashed{stroke-dasharray:3;}#dynamic .edge-pattern-dotted{stroke-dasharray:2;}#dynamic .marker{fill:#333333;stroke:#333333;}#dynamic .marker.cross{stroke:#333333;}#dynamic svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#dynamic p{margin:0;}#dynamic :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+    <g></g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="1033" rx="3" y="0" x="0"></rect>
+        <text y="30" x="30" font-weight="bold">UI/Automation</text>
+    </g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="1033" rx="3" y="140" x="0"></rect>
+        <text y="170" x="30" font-weight="bold">Command/Read Model</text>
+    </g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="1033" rx="3" y="280" x="0"></rect>
+        <text y="310" x="30" font-weight="bold">Stream: External</text>
+    </g>
+    <g class="em-swimlane">
+        <rect stroke="rgb(240,240,240)" fill="rgb(250,250,250)" height="130" width="1033" rx="3" y="420" x="0"></rect>
+        <text y="450" x="30" font-weight="bold">Stream: Cart</text>
+    </g>
+    <g class="em-box">
+        <rect fill="#ffb778" stroke="#c19a0f" height="100" width="242" rx="3" y="295" x="250"></rect>
+        <foreignObject height="80" width="222" y="305" x="260">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InventoryChanged</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#edb3f6" stroke="#b88cbf" height="100" width="252" rx="3" y="15" x="422"></rect>
+        <foreignObject height="80" width="232" y="25" x="432">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InventoryProcessor</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#bcd6fe" stroke="#679ac3" height="100" width="232" rx="3" y="155" x="604"></rect>
+        <foreignObject height="80" width="212" y="165" x="614">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>ChangeInventory</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <g class="em-box">
+        <rect fill="#ffb778" stroke="#c19a0f" height="100" width="242" rx="3" y="435" x="766"></rect>
+        <foreignObject height="80" width="222" y="445" x="776">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="display: table; height: 100%; width: 100%;">
+                <span style="display: table-cell; text-align: center; vertical-align: middle;">
+                    <b>InventoryChanged</b>
+                </span>
+            </div>
+        </foreignObject>
+    </g>
+    <path d="M411.33333333333337 295 L506 115" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+    <path d="M590 115 L681.3333333333334 155" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+    <path d="M758.6666666666666 255 L846.6666666666666 435" marker-end="url(#arrowhead)" stroke-width="1" stroke="#000" fill="none" class="em-relation"></path>
+    <defs>
+        <marker orient="auto" refY="3.5" refX="10" markerHeight="7" markerWidth="10" id="arrowhead">
+            <polygon fill="#000" points="0 0, 10 3.5, 0 7"></polygon>
+        </marker>
+    </defs>
+</svg>
