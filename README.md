@@ -53,8 +53,7 @@ rf 11 rmo InvocationResult
 tf 12 pcr AgentB
 
 data Answers10 {
-  2 invoices were sent out 
-  yesterday to customers X and Y
+  2 invoices were sent out yesterday to customers X and Y
 }
 ```
 
