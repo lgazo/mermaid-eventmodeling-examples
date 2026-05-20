@@ -1,3 +1,9 @@
+GitHub currently runs the following Mermaid version:
+
+```mermaid
+  info
+```
+
 Example of event model in a markdown document rendered in GitHub
 
 ```mermaid
